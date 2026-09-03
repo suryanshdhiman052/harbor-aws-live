@@ -1,0 +1,5 @@
+bucket         = "harbor-tfstate-ACCOUNT_ID"
+key            = "harbor/live/terraform.tfstate"
+region         = "us-east-1"
+dynamodb_table = "harbor-tfstate-lock"
+encrypt        = true

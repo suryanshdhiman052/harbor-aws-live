@@ -1,0 +1,12 @@
+aws_region     = "us-east-1"
+project        = "harbor"
+environment    = "live"
+domain_name    = "api.example.com"
+hosted_zone_id = "ZXXXXXXXXXXXXX"
+alert_email    = "ops@example.com"
+
+# After scripts/push-api.sh:
+# container_image = "123456789012.dkr.ecr.us-east-1.amazonaws.com/harbor-live:abc1234"
+# desired_count   = 2
+container_image = ""
+desired_count   = 0
